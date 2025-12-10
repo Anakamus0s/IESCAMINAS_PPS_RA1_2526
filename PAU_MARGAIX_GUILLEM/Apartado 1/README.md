@@ -48,6 +48,13 @@ Cifrado César → \m,Ym~smu
 Para el correcto funcionamiento del programa se han generado varios test unitarios en pro de asegurar que las conversiones están funcionando de forma correcta.
 Para estos test se ha usado mi apellido, para hacer todas las comprobaciones se han desarollado 7 test unitarios, cada uno de ellos comprueba la codificación y decodificación de la misma palabra y comprobamos que sea el resultado esperado.
 
+Funciones a comprobar: 
+- `encrypt_base64(texto)`
+- `encrypt_sha256(texto)`
+- `encrypt_sha512(texto)`
+- `encrypt_md5(texto)`
+- `encrypt_cesar(texto, desplazamiento)`
+
 ---
 ### Comandos usados
 *Estos comandos han sido ejecutados desde la terminal del editor de código VSCode, estando en el directorio donde se encuentran los 2 archivos .py*
